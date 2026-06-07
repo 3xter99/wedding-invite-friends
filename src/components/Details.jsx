@@ -21,14 +21,6 @@ export default function Details() {
       <Animate delay={250}>
         <p className="details__text">{wedding.wishes.text}</p>
       </Animate>
-
-      <Animate delay={350} variant="fade">
-        <HeartIcon className="details__heart" />
-      </Animate>
-
-      <Animate delay={450}>
-        <p className="details__text details__text--small">{wedding.children.text}</p>
-      </Animate>
     </section>
   );
 }
